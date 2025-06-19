@@ -1,0 +1,16 @@
+{
+  "name": "dashboard-iot-poa",
+  "version": "1.0.0",
+  "description": "Dashboard em tempo real para dispositivo IoT em Porto Alegre",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "node servidor.js"
+  },
+  "author": "Ivan SSA",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mqtt": "^5.7.0",
+    "socket.io": "^4.7.5"
+  }
+}
